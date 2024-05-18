@@ -2,11 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EmployeeComponent } from './employee/employee.component';
 import { StudentComponent } from './student/student.component';
-import { AppComponent } from './app.component';
+
 
 
 export const routes: Routes = [
-  {path: 'app', component: AppComponent},
   {path: 'employee', component: EmployeeComponent},
   {path: 'student', component: StudentComponent}
 ];

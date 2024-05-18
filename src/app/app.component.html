@@ -1,17 +1,21 @@
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-  <li class="nav-item">
-    <a routeLink="/employee" routerLinkActive="active" class="nav-link"> Employee </a>
-  </li>
+<nav>
+  <ul>
+    <li class="nav-item">
+      <a routerLink="/employee" routerLinkActive="active" class="nav-link"> employee </a>
+    </li>
 
-  <li class="nav-item">
-    <a routerLink="student" routerLinkActive="active" class="nav-link"> student </a>
-  </li>
+    <li class="nav-item">
+      <a routerLink="/student" routerLinkActive="active" class="nav-link"> student</a>
+    </li>
+  </ul>
 
 </nav>
+
+<router-outlet></router-outlet>
 
 <div style="text-align: center;">
 
   <h1>Welcome to my first app !!</h1>
-
-  <router-outlet></router-outlet>
 </div>
+
+

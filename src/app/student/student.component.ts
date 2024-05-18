@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
-console.log("Student component is loading...?")
+console.log("Student component is loaded...!!")
 @Component({
   selector: 'app-student',
   standalone: true,
